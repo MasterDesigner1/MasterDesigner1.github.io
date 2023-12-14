@@ -1,0 +1,39 @@
+import { workTogetherTwo } from "@/data/workTogether";
+import React from "react";
+import { Col, Container, Image, Row } from "react-bootstrap";
+import Link from "../Reuseable/Link";
+import Title from "../Reuseable/Title";
+
+const { image, tagline, title, text, text2 } = workTogetherTwo;
+
+const WorkTogetherTwo = () => {
+  return (
+    <section className="work-together-two">
+      <Container>
+        <Row>
+          <Col lg={5}>
+            <div className="work-together-two__left animated slideInLeft">
+              <div className="work-together-two__img">
+                <Image src={image.src} alt="" />
+              </div>
+            </div>
+          </Col>
+          <Col lg={7}>
+            <div className="work-together-tow__right">
+              <Title title={title} tagline={tagline} className="text-left" />
+              <div className="work-together-tow__content">
+                <h3 className="work-together-tow__text">{text}</h3>
+              </div>
+              <p className="work-together-tow__text-2">{text2}</p>
+              <Link href="/about" className="thm-btn work-together-tow__btn">
+                Daha fazlası
+              </Link>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  );
+};
+
+export default WorkTogetherTwo;
