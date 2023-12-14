@@ -1,1 +1,14 @@
-{}
+{
+  "../components/OurMission/OurMission.js -> ../Jarallax/Jarallax": {
+    "id": "../components/OurMission/OurMission.js -> ../Jarallax/Jarallax",
+    "files": [
+      "static/chunks/src_components_Jarallax_Jarallax_js.js"
+    ]
+  },
+  "../components/TestimonialSection/TestimonialOne.js -> ../TinySlider/TinySlider": {
+    "id": "../components/TestimonialSection/TestimonialOne.js -> ../TinySlider/TinySlider",
+    "files": [
+      "static/chunks/src_components_TinySlider_TinySlider_js.js"
+    ]
+  }
+}
